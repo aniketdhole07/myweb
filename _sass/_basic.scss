@@ -575,7 +575,6 @@ color: #000000;
 	  flex-grow: 1; }
 	  .flexbin > * > img {
 		height: 350px;
-		object-fit: cover;
 		max-width: 100%;
 		min-width: 100%;
 		vertical-align: bottom; }
@@ -600,7 +599,6 @@ color: #000000;
 		  flex-grow: 1; }
 		  .flexbin > * > img {
 			height: 150px;
-			object-fit: cover;
 			max-width: 100%;
 			min-width: 100%;
 			vertical-align: bottom; }
@@ -625,7 +623,7 @@ color: #000000;
 		  flex-grow: 1; }
 		  .flexbin > * > img {
 			height: 100px;
-			object-fit: cover;
+			object-fit: contain;
 			max-width: 100%;
 			min-width: 100%;
 			vertical-align: bottom; }
